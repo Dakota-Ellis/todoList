@@ -1,0 +1,14 @@
+h1 {
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+li {
+    color: blue;
+}
+
+label {
+    color: red;
+    font-weight: bold;
+}

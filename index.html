@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>List for the Grocery Store</h1>
+    <form action="/index.js">
+    <label for="list">Need something else? Add it to the list.</label>
+    <input type="text" id="add" name="add" required
+            minlength="4" maxlength="8" size="10">
+    <button type="button" onclick="add()" id="btn1">Add</button>
+    </form>
+    <ul>
+        <li>Milk<input type="checkbox" class="list" name="item1" unchecked></li>
+        <li>Bread<input type="checkbox" class="list" unchecked></li>
+        <li>Ice Cream<input type="checkbox" unchecked></li>
+            <ul>
+                <li>(Mint or vanilla)</li>
+            </ul>
+        <li>Dog food<input type="checkbox" unchecked></li>
+        <li>Shower accessories<input type="checkbox"  unchecked></li> 
+            <ul>
+                <li>Shower caddy</li>
+                <li>Shower Head</li>
+                <li>Scrubber</li>
+            </ul>
+        <li class="output" id="output1"></li>
+    </ul>
+    <script src="./index.js"></script>
+</body>
+</html>
