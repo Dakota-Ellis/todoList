@@ -1,14 +1,31 @@
 h1 {
-    color: black;
+    color: white;
     text-decoration: underline;
     text-transform: uppercase;
+    font-size: xx-large;
 }
 
 li {
     color: blue;
+    font-size: large;
 }
 
 label {
-    color: red;
+    color: white;
     font-weight: bold;
+    font-size: larger;
+}
+
+.sideList {
+    color: red;
+    font-size: small
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-photo/close-up-view-shopping-list_13339-260329.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    list-style-position: inside;
+    text-align:center;
 }

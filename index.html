@@ -13,23 +13,24 @@
     <label for="list">Need something else? Add it to the list.</label>
     <input type="text" id="add" name="add" required
             minlength="4" maxlength="8" size="10">
-    <button type="button" onclick="add()" id="btn1">Add</button>
+    <button type="button" id="btn1">Add</button>
     </form>
     <ul>
         <li>Milk<input type="checkbox" class="list" name="item1" unchecked></li>
         <li>Bread<input type="checkbox" class="list" unchecked></li>
         <li>Ice Cream<input type="checkbox" unchecked></li>
             <ul>
-                <li>(Mint or vanilla)</li>
+                <li class="sideList">(Mint or vanilla)</li>
             </ul>
         <li>Dog food<input type="checkbox" unchecked></li>
         <li>Shower accessories<input type="checkbox"  unchecked></li> 
             <ul>
-                <li>Shower caddy</li>
-                <li>Shower Head</li>
-                <li>Scrubber</li>
+                <li class="sideList">Shower caddy</li>
+                <li class="sideList">Shower Head</li>
+                <li class="sideList">Scrubber</li>
             </ul>
-        <li class="output" id="output1"></li>
+        <li>Apples<input type="checkbox"  unchecked></li> </li>
+        <ul id="output1"></ul>
     </ul>
     <script src="./index.js"></script>
 </body>
