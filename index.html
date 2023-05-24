@@ -8,30 +8,13 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>List for the Grocery Store</h1>
+    <h1>What to do today</h1>
     <form action="/index.js">
-    <label for="list">Need something else? Add it to the list.</label>
-    <input type="text" id="add" name="add" required
-            minlength="4" maxlength="8" size="10">
-    <button type="button" id="btn1">Add</button>
+    <label for="list">I'm old... so I better write this down</label>
+    <input type="text" id="add" name="add" required size="10">
+    <button type="button" class='click' id="btn1">Add</button>
     </form>
-    <ul>
-        <li>Milk<input type="checkbox" class="list" name="item1" unchecked></li>
-        <li>Bread<input type="checkbox" class="list" unchecked></li>
-        <li>Ice Cream<input type="checkbox" unchecked></li>
-            <ul>
-                <li class="sideList">(Mint or vanilla)</li>
-            </ul>
-        <li>Dog food<input type="checkbox" unchecked></li>
-        <li>Shower accessories<input type="checkbox"  unchecked></li> 
-            <ul>
-                <li class="sideList">Shower caddy</li>
-                <li class="sideList">Shower Head</li>
-                <li class="sideList">Scrubber</li>
-            </ul>
-        <li>Apples<input type="checkbox"  unchecked></li> </li>
         <ul id="output1"></ul>
-    </ul>
     <script src="./index.js"></script>
 </body>
 </html>
